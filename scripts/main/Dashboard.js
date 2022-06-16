@@ -30,9 +30,9 @@ class Dashboard {
         this.navbar.classList.add("navbar");
         this.navbar.innerHTML = (`
             <button class="bar-1 pesan"><i class="fa-light fa-message-dots"></i> ${this.selang.dashboard.navbarPesan}</button>
-            <button class="bar-1 random"><i class="fa-light fa-shuffle"></i> ${this.selang.dashboard.navbarRandom}</button>
+            <button class="bar-1 random" style="display:none;"><i class="fa-light fa-shuffle"></i> ${this.selang.dashboard.navbarRandom}</button>
             <button class="bar-1 grup"><i class="fa-light fa-user-group"></i> ${this.selang.dashboard.navbarGrup}</button>
-            <button class="bar-1 post"><i class="fa-light fa-image-polaroid-user"></i> ${this.selang.dashboard.navbarKiriman}</button>
+            <button class="bar-1 post" style="display:none;"><i class="fa-light fa-image-polaroid-user"></i> ${this.selang.dashboard.navbarKiriman}</button>
         `);
         // MASUKKAN 2 DIV BARU KE CONTAINER
         this.container.appendChild(this.header);

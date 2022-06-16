@@ -12,13 +12,12 @@ class Library {
                 <p class="desc">2022</p>
                 <span>Link: <a href="https://www.solity.my.id/" target="_blank">https://www.solity.my.id/</a></span>
             </div>
+            <div class="card link-fitur" target="_blank">
+                <h3 class="title">Fitur Zetachat</h3>
+            </div>
             <div class="card link">
                 <h3 class="title">Versi</h3>
                 <p class="desc">0.2</p>
-            </div>
-            <div class="card link-fitur" target="_blank">
-                <h3 class="title">Fitur Zetachat</h3>
-                <span><a href="m/fitur/" target="_blank">View Fitur</a></span>
             </div>
         `);
     }
