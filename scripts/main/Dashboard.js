@@ -13,7 +13,7 @@ class Dashboard {
         this.header = document.createElement("div");
         this.header.classList.add("header");
         this.header.innerHTML = (`
-            <div class="judul">Solity</div>
+            <div class="judul">Zetachat</div>
             <div class="opsi">
                 <div class="opsiBtn">
                     <button class="cari">

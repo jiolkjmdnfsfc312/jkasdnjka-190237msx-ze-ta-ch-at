@@ -1,13 +1,13 @@
 // ISI DENGAN PROJECT FIREBASE MILIK TEMEN-TEMEN SENDIRI
 const firebaseConfig = {
-  apiKey: "AIzaSyCqd2KveriPcLgXUmf6j1eT_r-ZFpyoxd4",
-  authDomain: "solityid-admin-chat.firebaseapp.com",
-  databaseURL: "https://solityid-admin-chat-default-rtdb.firebaseio.com",
-  projectId: "solityid-admin-chat",
-  storageBucket: "solityid-admin-chat.appspot.com",
-  messagingSenderId: "566200163073",
-  appId: "1:566200163073:web:1d2edbe64d6458d02c1900",
-  measurementId: "G-7TDYFWVXHP"
+  apiKey: "AIzaSyDCTTnUof2ABs1WrLQH6yokX0Xon-XhNtU",
+  authDomain: "zetachat.firebaseapp.com",
+  databaseURL: "https://zetachat-default-rtdb.firebaseio.com",
+  projectId: "zetachat",
+  storageBucket: "zetachat.appspot.com",
+  messagingSenderId: "573300156255",
+  appId: "1:573300156255:web:427a1b9335610b5af878ea",
+  measurementId: "G-E31N6PG8SM"
 };
 
 // BIAR GA KELAMAAN PAS MAU PANGGIL NANTI

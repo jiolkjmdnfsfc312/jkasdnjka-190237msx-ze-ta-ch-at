@@ -8,17 +8,16 @@ class Library {
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
             <div class="card link-fa">
-                <h3 class="title">By Andre</h3>
+                <h3 class="title">By Zetachat</h3>
                 <p class="desc">2022</p>
                 <span>Link: <a href="https://www.solity.my.id/" target="_blank">https://www.solity.my.id/</a></span>
             </div>
-            <div class="card link-notipin">
-                <h3 class="title">Storage</h3>
-                <p class="desc">Firebase</p>
+            <div class="card link">
+                <h3 class="title">Versi</h3>
+                <p class="desc">0.2</p>
             </div>
             <div class="card link-notipin">
-                <h3 class="title">Versi</h3>
-                <p class="desc">1.0.0</p>
+                <h3 class="title">Lisensi</h3>
             </div>
         `);
     }
@@ -38,10 +37,3 @@ class Library {
         this.clicked();
     }
 }
-
-/*
-    SUBSCRIBE: DEVANKA 761 
-    https://www.youtube.com/c/RG761
-
-    IG: " @dvnkz_ "
-*/

@@ -10,7 +10,7 @@ class Landing {
         this.element.classList.add("Landing");
         // ISI DARI "LANDING"
         this.element.innerHTML = (`
-            <div class="Title">Solity</div>
+            <div class="Title">Zetachat</div>
             <div class="Desc">Login dulu ya untuk melanjutkan</div>
             <div class="Tombol">
                 <button class="btn-1 loginGoogle"><i class="fab fa-google"></i>Google</button>
