@@ -16,7 +16,7 @@ class Library {
                 <h3 class="title">Versi</h3>
                 <p class="desc">0.2</p>
             </div>
-            <div class="card link-notipin">
+            <div class="card link-fitur">
                 <h3 class="title">Lisensi</h3>
             </div>
         `);
@@ -24,11 +24,11 @@ class Library {
     clicked() { // U KNOW LAH
         const back = this.element.querySelector("button.back");
         const fa = this.element.querySelector(".card.link-fa");
-        const notipin = this.element.querySelector(".card.link-notipin");
+        const fitur = this.element.querySelector(".card.link-fitur");
 
         back.onclick = () => new Dashboard().detectLastActivity();
         fa.onclick = () => window.open("https://www.solity.my.id/");
-        notipin.onclick = () => window.open("https://github.com/devanka761/notipin");
+        fitur.onclick = () => window.open("m/fitur/");
     }
     init(container) { // OTOMATIS JALANKAN SETELAH DIPANGGIL
         new Landing().end();
