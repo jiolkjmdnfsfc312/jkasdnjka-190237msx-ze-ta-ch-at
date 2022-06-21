@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - GeoSnap OnBoarding - Presettings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet prefetch" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"><link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Lato:200,300,400,500,700,900"><link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+</head>
+
+
+<div class='walkthrough'>
+  <div class='walkthrough-pagination'>
+    <a class='dot active'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+  </div>
+  <div class='walkthrough-body'>
+    <ul class='screens animate'>
+      <li class='screen active'>
+        <div class='media logo'>
+          <img class='logo' src='https://lh3.googleusercontent.com/1k8oO1SPr4nrymoViQ_JW6MSJ8izs4DgFkYsjJ00c8RvD-KLKtyJVF6JBYY-6Mk4D98=w300-rw'>
+        </div>
+        <h3>
+          Welcome to GeoSnap
+        </h3>
+        <p>We just have one step left until you can start using the GeoSnap app.
+          <br><br>This is necessary so that GeoSnap will be able to do its magic.</p>
+      </li>
+      <li class='screen'>
+        <div class='media smaller'>
+          <img class='icon' src='http://icons.iconarchive.com/icons/dtafalonso/android-l/512/Settings-L-icon.png'>
+        </div>
+        <h3>
+          Enable mock locations</br>
+        </h3>
+        <p>You have to check the "Enable mock locations" box in developer settings.
+    <br><br>
+          Watch the video on the next slide. Then press the yellow button on the bottom of the page. The yellow button will take you directly to the developer settings.
+    <br><br>
+          <b>Watch the tutorial!</b></p>
+      </li>
+      <li class='screen'><h3>
+          Tutorial</br></br>
+        </h3>
+        <div id="howToVideo" style=""></div>
+			</li>
+    </ul>
+    <button class='prev-screen'>
+      <i class='icon-angle-left'></i>
+    </button>
+    <button class='next-screen'>
+      <i class='icon-angle-right'></i>
+    </button>
+  </div>
+  <div class='walkthrough-footer'>
+    <button class='button help'>Help | Aide</button>
+    <button class='button next-screen'>Next</button>
+    <button class='button finish escort' disabled='true'>Ok I'm ready</button>
+  </div>
+</div>
+
+<div class="help-modal hidden">
+  <div class="container">
+    <h3><b>READ THE INSTRUCTIONS CAREFULLY AND WATCH THE VIDEO!</b></h3>
+    <p>The process is really not hard.
+      <br>Please watch the video several times and then click the yellow button that will take you directly to developer settings. Then just scroll down and look for "mock locations" or "positions fictives" (in French).
+      <br>Enable mock locations and just press the back button and then you are ready!</p>
+    <div class="mailHelp link">I still need help</div>
+    <a href="https://codepen.io/Cxdeberry/debug/jbQLoY" class="link">Je parle français et je ne comprends rien</a>
+  </div>
+</div>
+
+<div class="close hidden"></div>
+
+<script type="application/javascript">
+  var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = false;
+            ga.src = 'https://www.youtube.com/player_api';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+
+            var done = false;
+            var player;
+
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('howToVideo', {
+                    videoId: 'yYYdn9Y3fFc',
+                playerVars: {
+                    modestbranding: 1,
+                    controls: 0,
+                    disablekb: 1,
+                    rel: 0,
+                    showinfo: 0,
+										start: 44
+                },
+                  events: {
+                    'onReady': onPlayerReady
+                  }
+                });
+            }
+            function onPlayerReady(evt) {
+                console.log('onPlayerReady', evt);
+            }
+
+            function stopVideo() {
+                console.log('stopVideo');
+                player.stopVideo();
+            }
+</script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

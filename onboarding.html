@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .floating {
+            animation-name: floating;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        .floatng:hover {
+            -webkit-animation-play-state: paused;
+            -moz-animation-play-state: paused;
+            -o-animation-play-state: paused;
+            animation-play-state: paused;
+        }
+
+        @keyframes floating {
+            0% {
+                transform: translate(0, 0px);
+            }
+
+            50% {
+                transform: translate(0, 5px);
+            }
+
+            100% {
+                transform: translate(0, -0px);
+            }
+        }
+
+        .animate__animated.animate__fadeIn {
+            animation-duration: 2s;
+        }
+
+        .animate__animated.animate__fadeOut {
+            animation-duration: 0.2s;
+        }
+
+        .welcome-intro {
+            font-size: 50px;
+            color: #fff;
+            margin-bottom: 192px;
+        }
+
+        .main-first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            justify-content: flex-end;
+            height: 100%;
+            z-index: 99999999;
+            background-color: #40739e;
+            background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWqtEoUkD_eWw_xYZWtlVc4hqj2G-0ouzceHDhhtDx1qfZvn8w6D0_qoDmpELeK08U4zM1IOkswL834pgxnt4C9ZlTEatxvKoL7a3qDXHnoAfVzXtzVC8o2shl8bQwu33FKRXY08LuQ3s2afvlbAf_1YgElrvpXE0zbknM8ko3QLZ9HITsZvpcsb6X/s1600/cherry-689.png");
+            background-repeat: no-repeat;
+            background-size: 20%;
+            background-position: top 26px center;
+        }
+
+        @media (max-width:480px) {
+            .main-first {
+                background-size: 84% !important;
+                background-position: top 70px center !important;
+            }
+
+            .get-started p {
+                font-size: 18px !important
+            }
+
+            p.small {
+                font-size: 10px !important
+            }
+        }
+
+        .get-started {
+            background: #F8F9FF;
+            width: 84%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 2px 3px 0px 0px;
+        }
+
+        .get-started p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            color: black;
+            font-size: 30px;
+            word-spacing: 1px;
+            letter-spacing: 0px;
+            font-weight: 800;
+        }
+
+        .get-started p span {
+            color: #0099FF;
+        }
+
+        .get-started button {
+            cursor: pointer;
+            width: 106px;
+            border-radius: 20px;
+            height: 40px;
+            font-size: 15px;
+            border: 0;
+            background: #0099FF;
+            color: #FFF;
+            font-weight: 500;
+        }
+
+        p.small {
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 12px;
+            width: 80%;
+        }
+
+        .main-page.show-btn {
+            display: block;
+            transition: 0.5s ease;
+        }
+
+        .main-page.hide-btn {
+            display: none;
+            transition: 0.5s ease;
+        }
+
+        .main-page {
+            display: none;
+            transition: 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='main-page show-btn'>
+        <div class='main-first'>
+
+            <div class='get-started floating'>
+                <p>Start to Discover New
+                    <span>
+                        Codes
+                    </span>
+                </p>
+                <p class='small'>Best platform to get latest jquery codes and css snippet*</p>
+                <button id='get-started'>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <script>//<![CDATA[
+        const adssContainer = document.querySelector(".main-page");
+        const closeBtn = adssContainer.querySelector("#get-started");
+        closeBtn.addEventListener("click", () => {
+            document.cookie = "WebsiteName01=anutrickz01; max-age=" + 24 * 60 * 60;
+            adssContainer.classList.add("hide-btn");
+            setTimeout(() => {
+                adssContainer.classList.add("hide");
+            }, 2000);
+        });
+        const siteCookie01 = document.cookie.indexOf("WebsiteName01=");
+        if (siteCookie01 != -1) {
+            adssContainer.classList.remove("show-btn");
+        }
+        else {
+            adssContainer.classList.add("show-btn");
+        }
+              //]]>
+    </script>
+</body>
+
+</html>

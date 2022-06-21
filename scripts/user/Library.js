@@ -7,17 +7,15 @@ class Library {
             <button class="back">
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
-            <div class="card link-fa">
-                <h3 class="title">By Zetachat</h3>
-                <p class="desc">2022</p>
-                <span>Link: <a href="https://www.solity.my.id/" target="_blank">https://www.solity.my.id/</a></span>
-            </div>
             <div class="card link-fitur" target="_blank">
                 <h3 class="title">Fitur Zetachat</h3>
             </div>
             <div class="card link">
                 <h3 class="title">Versi</h3>
-                <p class="desc">0.2</p>
+                <p class="desc">1.0</p>
+            </div>
+            <div class="card link">
+                <p class="desc">&copy; 2022 Zetachat</p>
             </div>
         `);
     }
@@ -27,8 +25,8 @@ class Library {
         const fitur = this.element.querySelector(".card.link-fitur");
 
         back.onclick = () => new Dashboard().detectLastActivity();
-        fa.onclick = () => window.open("https://www.solity.my.id/");
         fitur.onclick = () => window.open("m/fitur/");
+        fa.onclick = () => window.open("https://www.solity.my.id/");
     }
     init(container) { // OTOMATIS JALANKAN SETELAH DIPANGGIL
         new Landing().end();
