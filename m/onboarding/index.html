@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>CodePen - GeoSnap OnBoarding - Presettings</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" href="./style.css">
@@ -27,7 +28,7 @@
     <ul class='screens animate'>
       <li class='screen active'>
         <div class='media logo'>
-          <img class="logo" src="/images/onboarding/zetachat-v1.png">
+          <img class="logo" draggable="false" src="/images/onboarding/zetachat-v1.png" ng-click="$ctrl.deleteRecord(id)" ng-class="{'img-disabled': $ctrl.isDeleting}">
         </div>
         <h3>
           Welcome to Zetachat
@@ -36,7 +37,7 @@
       </li>
       <li class='screen'>
         <div class='media smaller'>
-          <img class='icon' src='/images/onboarding/zetachat-v2.png'>
+          <img class='icon' draggable="false" src='/images/onboarding/zetachat-v2.png'>
         </div>
         <h3>
           Kiriman
@@ -45,7 +46,7 @@
       </li>
       <li class='screen'>
         <div class='media logo'>
-          <img class="logo" src="/images/onboarding/zetachat-v3.png">
+          <img class="logo" draggable="false" src="/images/onboarding/zetachat-v3.png">
         </div>
         <h3>
           Profile
@@ -76,7 +77,7 @@
   <div class="container">
     <h3><b>Masalah Yang Terjadi!</b></h3>
     <p>Jika Ada Masalah Yang Kamu Alami Pada Aplikasi Kami Bisa Hubungi Support Dengan Menekan "Chat Support" DIbawah Ini.</p>
-    <a class="link">Chat Support</a>
+    <a href="" class="mailHelp link">Chat Support</a>
   </div>
 </div>
 

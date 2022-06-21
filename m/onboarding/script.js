@@ -126,3 +126,21 @@ document.getElementsByClassName('close')[0].onclick = function() {
 document.getElementsByClassName('escort')[0].onclick = function() {
 	window.androidPort.requestEscortMock();
 };
+
+
+//* Image Double Click*//
+angular.module('app').controller('myController', function($http){
+    var ctrl = this;
+    ctrl.isDeleting = false;
+
+    ctrl.deleteRecord = function(id){
+        if(ctrl.isDeleting){
+            return;
+        }
+
+        ctrl.isDeleting = true;
+        $http.delete('[your_api_url]/' + id).finally(function(){
+            ctrl.isDeleting = false;
+        });
+    };
+});
