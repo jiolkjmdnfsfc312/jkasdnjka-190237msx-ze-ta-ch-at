@@ -31,7 +31,7 @@ class Grup {
             <div class="foot">
                 <div class="inputan">
                     <button class="btn-3 emoji">
-                        <i class="fa-solid fa-face-mask"></i>
+                        <i class="fa-solid fa-face-mask" style="display:none;"></i>
                     </button>
                     <input data-input="${auth.currentUser.uid}" type="text" placeholder="${this.selang.chat.inputPesan}" />
                     <button class="btn-3 foto" data-image="${auth.currentUser.uid}">
@@ -323,13 +323,14 @@ class Grup {
                     });
                     const element = this.element;
                     const reader = new FileReader();
+                    const noteVN = this.selang.chat.kirimVN;
                     reader.addEventListener("load", function () {
 
                         const uploading = document.createElement("div");
                         uploading.classList.add("untai", "kita");
                         uploading.innerHTML = (`
                         <div class="untaian">
-                            <div class="pesan">${this.selang.chat.kirimVN}</div>
+                            <div class="pesan">${noteVN}</div>
                         </div>
                         <div class="segitiga">
                             <i class="fas fa-triangle"></i>

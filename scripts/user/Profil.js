@@ -217,7 +217,7 @@ class Profil {
         this.bioEditEl = document.createElement("div");
         this.bioEditEl.classList.add("Ganti");
         this.bioEditEl.innerHTML = (`
-            <input type="text" placeholder="${this.selang.profil.inputBio}" maxlength="100" class="tulis" />
+            <input type="text" placeholder="${this.selang.profil.inputBio}" maxlength="50" class="tulis" />
             <div class="tombol">
                 <button class="cancel btn-1">${this.selang.profil.tombolBatal}</button>
                 <button class="save btn-1">${this.selang.profil.tombolSimpan}</button>

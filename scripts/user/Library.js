@@ -12,7 +12,7 @@ class Library {
             </div>
             <div class="card link">
                 <h3 class="title">Versi</h3>
-                <p class="desc">1.0</p>
+                <p class="desc">1.3</p>
             </div>
             <div class="card link">
                 <p class="desc">&copy; 2022 Zetachat</p>

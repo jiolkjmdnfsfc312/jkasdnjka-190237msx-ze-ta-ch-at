@@ -114,7 +114,7 @@ class ListGrup {
         submit.onclick = () => { // LISTENER SUBMIT DIKLIK
             const hasil = input.value.replace(/^\s+/g, ''); // HAPUS SEMUA WHITESPACE
             if(hasil < 1) return; // KALO KURANG DARI 1 KARAKTER MAKA STOP SCRIPTNYA
-            const chara = "zeta" + new Date().getTime(); // BIKIN ID GRUPNYA (KEY GUILD)
+            const chara = "krm" + new Date().getTime(); // BIKIN ID GRUPNYA (KEY GUILD)
             this.submitGrup(hasil, chara); // JALANKAN submitGrup()
         }
     }

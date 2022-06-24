@@ -36,7 +36,7 @@ class Pesan {
             <div class="foot">
                 <div class="inputan">
                     <button class="btn-3 emoji">
-                        <i class="fa-solid fa-face-mask"></i>
+                        <i class="fa-solid fa-face-mask" style="display:none;"></i>
                     </button>
                     <input data-input="${auth.currentUser.uid}" type="text" placeholder="${this.selang.chat.inputPesan}" />
                     <button class="btn-3 foto" data-image="${auth.currentUser.uid}">
@@ -171,8 +171,8 @@ class Pesan {
                         this.list.querySelector(`.atas [data-del="${data.key}"]`).onclick = () => {
                             Notipin.Confirm({
                                 msg: this.selang.chat.notipinTarik,
-                                yes: "YOI DONG",
-                                no: "GA JADI",
+                                yes: "Hapus",
+                                no: "Batal",
                                 onYes: () => this.tarikChat(data.key, this.chatKey),
                                 mode: "dark",
                                 type: "danger"

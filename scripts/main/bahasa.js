@@ -14,7 +14,7 @@ window.Bahasa = {
             optKeluar: "keluar",
             notipinLaporkan: "DESKRIPSIKAN HAL MENARIK (BUG/HAL KURANG BAIK) YANG KAMU TEMUKAN",
             notipinTema: "INGIN BERGANTI TEMA?",
-            notipinKeluar: "BENERAN MAU KELUAR DARI AKUN KAMU?",
+            notipinKeluar: " Anda Yakin Ingin Keluar Dari Akun?",
             notipinLaporkan_Sukses: "LAPORAN BERHASIL DIKIRIM!",
         },
         aula: {
@@ -34,7 +34,7 @@ window.Bahasa = {
         },
         cari: {
             judul: "Cari Pengguna",
-            inputNama: "Tulis Nama",
+            inputNama: "Tulis Username",
             tombolBatal: "BATAL",
             tombolLanjut: "CARI",
             notipinKarakter: "ISI MINIMAL 2 KARAKTER UNTUK MENCARI",
@@ -45,8 +45,8 @@ window.Bahasa = {
             pesanTerhapus: "Pesan Telah Dihapus",
             kirimVN: "Mengolah Hasil Rekaman...",
             kirimGambar: "Sedang Mengunggah...",
-            notipinTipeGambar: "PILIH FILE DENGAN TIPE GAMBAR DONG",
-            notipinTarik: "YAKIN INGIN MENARIK PESAN INI?",
+            notipinTipeGambar: "Saat Ini Hanya Dapat Mengirim Gambar",
+            notipinTarik: "Anda Yakin Ingin Menghapus Pesan Ini Untuk Semuanya?",
         },
         list_grup: {
             nomore: "TIDAK ADA GRUP LAIN YANG TELAH KAMU IKUTI",
@@ -82,7 +82,7 @@ window.Bahasa = {
             tombolChat: "Chat",
             tombolKeluar: "Keluar Grup",
             anggota: "Anggota",
-            notipinKeluar: "YAKIN INGIN MENGHAPUS/KELUAR DARI GRUP",
+            notipinKeluar: "Apakah Anda Yakin Ingin Menghapus Dan Keluar Dari Grup",
             notipinTipeGambar: "PILIH FILE DENGAN TIPE GAMBAR DONG",
         },
         pengguna: {
