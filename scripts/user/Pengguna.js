@@ -20,12 +20,12 @@ class Pengguna {
             <div class="bio">
                 <q>Loading</q>
             </div>
-            <div class="follower">
+            <div class="follower" style="display:none;">
                 <div class="pengikut">
                 </div>
             </div>
             <div class="tombolan">
-                <button class="btn-1 follow biru">${this.selang.pengguna.tombolIkuti}</button>
+                <button class="btn-1 follow biru" style="display:none;">${this.selang.pengguna.tombolIkuti}</button>
                 <button class="btn-1 chat hijau">${this.selang.pengguna.tombolChat}</button>
             </div>
             <button class="btn-1 done clean">${this.selang.pengguna.tombolTutup}</button>

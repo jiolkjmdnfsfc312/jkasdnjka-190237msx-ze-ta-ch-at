@@ -29,7 +29,7 @@ class Profil {
                     <q>Loading</q>
                     <i class="fal fa-edit"></i>
                 </div>
-                <div class="follower">
+                <div class="follower" style="display:none;">
                     <div class="pengikut">
                     Loading
                     </div>

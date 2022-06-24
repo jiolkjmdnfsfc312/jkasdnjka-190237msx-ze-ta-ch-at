@@ -346,7 +346,7 @@ class ListPost {
             <div class="error"></div>
             <select class="specify">
                 <option value="public">${this.selang.list_post.pilihPublik}</option>
-                <option value="particular">${this.selang.list_post.pilihPengikut}</option>
+                <option value="particular" style="display:none;">${this.selang.list_post.pilihPengikut}</option>
             </select>
             <div class="preview">
                 <button class="btn-1 pilih biru">
@@ -354,7 +354,7 @@ class ListPost {
                 </button>
             </div>
             <div class="inputan">
-                <textarea data-kiriman="${auth.currentUser.uid}" type="text" placeholder="${this.selang.list_post.inputSesuatu}" maxlength="300"></textarea>
+                <textarea data-kiriman="${auth.currentUser.uid}" type="text" placeholder="${this.selang.list_post.inputSesuatu}" maxlength="1000"></textarea>
             </div>
             <div class="tombolan">
                 <button class="btn-1 merah cancel"><i class="fa-duotone fa-circle-x"></i> ${this.selang.list_post.tombolBatal}</button>
