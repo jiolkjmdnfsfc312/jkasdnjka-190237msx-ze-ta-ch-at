@@ -14,6 +14,7 @@
     --hijau: #64b180;
     --merah: #d46c6c;
     --kuning: #d4c16c;
+    --putih: #fff;
 }
 
 .merah {
@@ -24,6 +25,9 @@
 }
 .biru {
     background-color: var(--biru);
+}
+.putih {
+    color: var(--putih);
 }
 .error {
     margin: 7px 0;

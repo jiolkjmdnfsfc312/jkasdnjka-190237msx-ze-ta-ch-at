@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!--time_1-->
+
+<html>
+
+<head>
+    <title>UPS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width�vice-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+    <meta http-equiv="X-UA-Compatible" content="IE�ge" />
+    <style type="text/css">
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            background-color: #ededed;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        body {
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+        }
+
+        .fallback-text {
+            font-family: arial, sans-serif;
+        }
+
+        @media only screen and (max-width: 479px) {
+            body {
+                width: auto !important;
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+            }
+
+        }
+
+        @media screen and (max-width: 525px) {
+            body {
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+            }
+
+            #WrapperTable {
+                margin-top: 0 !important;
+                margin-bottom: 0 !important;
+            }
+
+            .wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .logo img {
+                margin: 0 auto !important;
+            }
+
+            .img-max {
+                max-width: 100% !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .responsive-table,
+            .responsivetable {
+                width: 100% !important;
+            }
+
+            .paddingTop {
+                padding: 20px 50px 20px 50px !important;
+            }
+
+            .paddingBanner {
+                padding: 5px 0px 5px 0px !important;
+            }
+
+            .padding {
+                padding: 0px 50px 20px 50px !important;
+            }
+
+            .padding-sides {
+                padding: 0 10px 0 10px;
+            }
+
+            .padding-copy {
+                padding: 0px 15px 20px 15px !important;
+                text-align: center !important;
+            }
+
+            .padding-copy8 {
+                padding: 0px 50px 8px 50px !important;
+            }
+
+            .padding-copy14 {
+                padding: 0px 50px 14px 50px !important;
+            }
+
+            .padding-copy16 {
+                padding: 0px 50px 16px 50px !important;
+            }
+
+            .padding-copy18 {
+                padding: 0px 50px 18px 50px !important;
+            }
+
+            .padding-copy24 {
+                padding: 0px 50px 24px 50px !important;
+            }
+
+            .padding-copy28 {
+                padding: 0px 50px 28px 50px !important;
+            }
+
+            .pcta-btn {
+                margin: 0 auto;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .pcta-btn a {
+                text-decoration: none;
+            }
+
+            .mobile-button {
+                padding: 8px 0 !important;
+                border: 0 !important;
+                font-size: 18px !important;
+                text-align: center;
+            }
+
+        }
+
+        .mobile-button:hover {
+            color: black !important;
+        }
+
+        .pcta-btn .mobile-button {
+            color: #121212;
+        }
+
+        .pcta-btn .mobile-button:hover,
+        .pcta-btn .mobile-button:visited {
+            color: #121212 !important;
+        }
+
+        .pcta-btn:hover {
+            background-color: #FFC400 !important;
+            border-radius: 30px !important;
+        }
+
+        .mobile-button-container:hover {
+            background-color: #FFC400 !important;
+            border-radius: 30px !important;
+        }
+
+        .mobile-button-container-transparent:hover {
+            background-color: transparent !important;
+            border-radius: 30px !important;
+        }
+
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.ups.com/assets/resources/styles/fonts/Roboto-Regular.woff2')format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.ups.com/assets/resources/styles/fonts/Roboto-Medium.woff')format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.ups.com/assets/resources/styles/fonts/Roboto-Bold.woff2')format('woff2');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        a.button {
+            font-size: 16px !important;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+            color: #121212 !important;
+            text-decoration: none !important;
+            text-decoration: none !important;
+            border-radius: 8px;
+            padding: 15px 25px;
+            border: 1px solid #FFC400;
+            display: inline-block !important;
+            font-weight: bold !important;
+        }
+
+        .btn a {
+            font-size: 16px !important;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+            text-decoration: none !important;
+            text-decoration: none !important;
+            border-radius: 8px;
+            padding: 15px 25px !important;
+            display: inline-block !important;
+            font-weight: bold !important;
+        }
+
+        strong {
+            font-family: 'Roboto', Tahoma, Arial, Helvetica, sans-serif !important;
+            font-weight: bold !important;
+        }
+
+        ul li {
+            font-size: 16px;
+            font-family: 'Roboto', Tahoma, Arial, Helvetica, sans-serif;
+        }
+
+        ul li strong {
+            font-size: 16px;
+            font-family: 'Roboto', Tahoma, Arial, Helvetica, sans-serif;
+        }
+
+        ol li {
+            font-size: 16px;
+            font-family: 'Roboto', Tahoma, Arial, Helvetica, sans-serif;
+        }
+
+        ol li strong {
+            font-size: 16px;
+            font-family: 'Roboto', Tahoma, Arial, Helvetica, sans-serif;
+        }
+
+        .mobile-button-container a:visited {
+            color: #121212 !important;
+        }
+
+        .mobile-button-container-transparent {
+            color: #0662BB !important;
+        }
+
+        a {
+            color: #0662BB;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #0662BB;
+             !important;
+        }
+
+        a:visited {
+            color: inherit !important;
+        }
+
+        .links a {
+            color: #0662BB;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            color: #0662BB !important;
+        }
+
+        .links a:visited {
+            color: #0662BB !important;
+        }
+
+        a.black {
+            color: #121212;
+            font-weight: normal;
+        }
+
+        a.black:hover {
+            color: #121212 !important;
+        }
+
+        a.black:visited {
+            color: #121212;
+        }
+
+        #WrapperTable {
+            padding-bottom: 20px;
+        }
+
+        sup {
+            line-height: 0;
+            font-size: 70%;
+            mso-text-raise: 60%;
+        }
+
+        p,
+        div {
+            margin: 0 !important;
+        }
+    </style>
+    <!--[if mso]>        <style type=â€text/cssâ€>            body 
+{
+              text-align:center;            
+}
+            body, table, td 
+{
+font-family: Tahoma, Arial, Helvetica, sans-serif !important;
+}
+            .fallback-font 
+{
+              font-family: Tahoma, Arial, sans-serif;            
+}
+            strong 
+{
+              font-family:  Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+            ul li 
+{
+              font-family: Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+            ul li strong 
+{
+              font-family:  Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+            ol li 
+{
+              font-family:   Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+            ol li strong 
+{
+            font-family: Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+             p, span 
+{
+              font-family: Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+            td 
+{
+              font-family: Tahoma, Arial, Helvetica, sans-serif !important;            
+}
+            a 
+{
+            color: #0662BB ;            font-weight: bold ;            
+}
+            a:hover 
+{
+                color: #0662BB ;            
+}
+            a:visited 
+{
+            color: #0662BB ;            
+}
+            .links a 
+{
+              color: #0662BB !important;              font-weight: bold !important;            
+}
+            .links a:hover
+{
+              color: #0662BB !important;            
+}
+            .links a:visited
+{
+              color: #0662BB !important;            
+}
+            a.black  
+{
+              color: #121212;              font-weight: normal;            
+}
+            a.black:hover 
+{
+              color: #121212;            
+}
+            a.black:visited 
+{
+              color: #121212;            
+}
+        </style>
+    <![endif]-->
+</head>
+
+<body style="margin: 0 auto; padding:0px;" bgcolor="#f2f2f2" id="body">
+    <!--
+-->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+        <tbody>
+            <tr>
+                <td align="center" valign="middle" bgcolor="#f2f2f2">
+                    <table border="0" cellpadding="0" cellspacing="0" width="640" align="center" class="table-full"
+                        role="presentation" style="min-width:320px; max-width:640px;">
+                        <tbody id="base">
+                            <tr>
+                                <td align="center" valign="middle">
+
+                                    <table width="640" border="0" cellpadding="0" cellspacing="0" align="center"
+                                        class="table" style="max-width:640px;" role="presentation">
+                                        <tbody>
+                                            <tr>
+
+                                                <th align="center" valign="top" class="coldrop"
+                                                    style="font-weight:normal;" width="75">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle" bgcolor="#ffffff" style="background-color:#ffffff;">
+
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center"
+                                        style="min-width:320px;" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="middle" style="padding:10px 0px 10px 0px;">
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" align="center"
+                                                        role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" valign="middle" height="70"
+                                                                    style="vertical-align: middle;">
+
+                                                                    <a href="https://www.zetachat.my.id/"
+                                                                        target="_blank" style="text-decoration: none;">
+                                                                        <h1>Zetachat</h1>
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="middle"
+                                                    style="padding:0px 0px 0px 0px; vertical-align: middle; line-height: 1px;">
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" align="center"
+                                                        role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" valign="middle" height="1"
+                                                                    style="vertical-align: middle; line-height: 1px;">
+
+                                                                    <img src="https://images.ctfassets.net/7rifqg28wcbd/1tFsF7cjjNpwaLC3AKwtu7/3709b2fab644d1c377323faf87f300f9/headergrad_onwhite.jpg"
+                                                                        alt="" height="1" border="0"
+                                                                        style="display:block;" class="header-border">
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle"
+                                    style="padding:0px 0px 0px 0px; background-color:#ffffff;" bgcolor="#ffffff">
+
+                                    <table width="520" border="0" cellpadding="0" cellspacing="0" align="center"
+                                        class="table" style="max-width: 520px;" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="middle" style="padding: 20px 0px 0px 0px;"
+                                                    class="pad2035nobot">
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                        align="center" role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="left" valign="middle"
+                                                                    style="padding:0px 0px 0px 0px;">
+
+                                                                    <p
+                                                                        style="margin: 0px; font-family:Math Sans, Tahoma, Arial, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:1.5; color:#6c7378;">
+                                                                        𝖧𝗂,<br><br>Account Kami Telah Kami
+                                                                        Banned.<br><br>Mengenai Banyak Nya Laporan Pada
+                                                                        Account Anda Team Kami Memeriksa Account Dan
+                                                                        Kami Melihat Banyak Nya Pelanggaran Yang Kamu
+                                                                        Lalui.<br><br>Kamu Bisa Melihat Kebijakan
+                                                                        Aplikasi Kami Pada Info Aplikasi Dan Harap
+                                                                        Patuhi Kebijakan Tersebut Jika Tidak Ingin
+                                                                        Account Anda Kami Banned.<br><br>
+                                                                    <table width="100%" cellspacing="0" cellpadding="0"
+                                                                        border="0" class="neptuneButtonwhite">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td align="center"
+                                                                                    style="padding:0px 30px 30px 30px;">
+                                                                                    <table border="0" cellspacing="0"
+                                                                                        cellpadding="0" class="stackTbl"
+                                                                                        style="color:#ffffff !important;">
+                                                                                        <tr>
+                                                                                            <!-- CTA text 17/21 -->
+                                                                                            <td bgcolor="#0070BA"
+                                                                                                align="center"
+                                                                                                valign="middle"
+                                                                                                style="padding:13px 90px 13px 90px; display: block; color:#ffffff !important; text-decoration:none; white-space: nowrap;  -webkit-print-color-adjust: exact; display: block; font-family:Math Sans, Trebuchet, Arial, sans serif; font-size:17px; line-height:21px; color:#ffffff !important;border-radius:25px;"
+                                                                                                class="ppsans mobilePadding9">
+                                                                                                <a href="##link##"
+                                                                                                    isLinkToBeTracked="True"
+                                                                                                    style="text-decoration:none;color:#ffffff !important; white-space: nowrap;"
+                                                                                                    target="_BLANK">𝖫𝗈𝗀𝗂𝗇
+                                                                                                    𝗍𝗈 𝖯𝖺𝗒𝖯𝖺𝗅
+                                                                                                </a>
+                                                                                            </td>
+                                                                                            <!-- end CTA text -->
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <p
+                                                                        style="margin: 0px; font-family:Math Sans, Tahoma, Arial, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:1.5; color:#6c7378;">
+                                                                        𝖳𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝖻𝖾𝗂𝗇𝗀 𝖺
+                                                                        𝖯𝖺𝗒𝖯𝖺𝗅 𝖼𝗎𝗌𝗍𝗈𝗆𝖾𝗋.
+                                                                        <br><br>𝖲𝗂𝗇𝖼𝖾𝗋𝖾𝗅𝗒
+                                                                        ,<br>𝖯𝖺𝗒𝖯𝖺𝗅<br>
+                                                                    </p>
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle"
+                                    style="padding:0px 0px 0px 0px; background-color:#ffffff;" bgcolor="#ffffff">
+
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center"
+                                        style="max-width: 640px;" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <img src="https://images.ctfassets.net/7rifqg28wcbd/6Xa3RLs8deEywtgXmAo9JV/61b1ee3576f0473ea04f86166fc8f4b1/spacer.gif"
+                                                        alt="" width="25" height="25" border="0" style="display:block;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle" bgcolor="#FFFFFF">
+                                    <a href="#" target="_blank">
+                                        <img src="https://images.ctfassets.net/7rifqg28wcbd/2dxFXFmQvep0NTbXfg0JUX/05cf75210fbd6d891a00050f86e41d29/banner_PH.png?w=1280"
+                                            alt="Are your PayPal account details up to date?" width="640" height="auto"
+                                            border="0"
+                                            style="display:block; text-align: center; font-family:'pp-sans-small-regular', Tahoma, Arial, sans-serif; font-size:18px; color:#000000;"
+                                            class="img" title="Are your PayPal account details up to date?"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle"
+                                    style="padding:0px 0px 0px 0px; background-color:#f5f7fa;" bgcolor="#f5f7fa">
+
+                                    <table width="620" border="0" cellpadding="0" cellspacing="0" align="center"
+                                        class="table" style="max-width: 620px; background-color: inherit;"
+                                        role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="middle" style="padding: 5px 20px 25px 20px;"
+                                                    class="pad2035">
+
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                        align="center" role="presentation">
+
+                                                        <tbody>
+                                                            <tr>
+
+                                                                <td align="left" valign="middle"
+                                                                    style="padding:20px 0px 0px 0px;">
+                                                                    <div
+                                                                        style="margin: 0px; font-family:Math Sans, Tahoma, Arial, sans-serif; font-size:13px; mso-line-height-rule:exactly; line-height:150%; color:#6c7378;">
+                                                                        𝖳𝗈 𝖾𝗇𝗌𝗎𝗋𝖾 𝗍𝗁𝖺𝗍 𝗒𝗈𝗎 𝖺𝗋𝖾
+                                                                        𝖺𝖻𝗅𝖾 𝗍𝗈 𝗋𝖾𝖼𝖾𝗂𝗏𝖾 𝗈𝗎𝗋
+                                                                        𝖾𝗆𝖺𝗂𝗅𝗌, 𝗉𝗅𝖾𝖺𝗌𝖾 𝖺𝖽𝖽
+                                                                        <b>@𝗆𝖺𝗂𝗅.𝗉𝖺𝗒𝗉𝖺𝗅.𝖼𝗈𝗆</b> 𝗍𝗈
+                                                                        𝗒𝗈𝗎𝗋 𝗌𝖺𝖿𝖾 𝗌𝖾𝗇𝖽𝖾𝗋𝗌 𝗅𝗂𝗌𝗍.
+                                                                        𝖥𝗈𝗋 𝗆𝗈𝗋𝖾 𝗂𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇,
+                                                                        𝗉𝗅𝖾𝖺𝗌𝖾 𝖼𝗅𝗂𝖼𝗄 <a href="#" title="here"
+                                                                            target="_blank"
+                                                                            style="color: #009cde;text-decoration:underline;">𝗁𝖾𝗋𝖾</a>.<br><br><b>𝖧𝗈𝗐
+                                                                            𝖽𝗈 𝖨 𝗄𝗇𝗈𝗐 𝗍𝗁𝗂𝗌 𝗂𝗌 𝗇𝗈𝗍 𝖺
+                                                                            𝗌𝗉𝗈𝗈𝖿 𝖾𝗆𝖺𝗂𝗅?</b><br>𝖲𝗉𝗈𝗈𝖿
+                                                                        𝗈𝗋 &quot;𝗉𝗁𝗂𝗌𝗁𝗂𝗇𝗀&quot; 𝖾𝗆𝖺𝗂𝗅𝗌
+                                                                        𝗍𝖾𝗇𝖽 𝗍𝗈 𝗁𝖺𝗏𝖾 𝗀𝖾𝗇𝖾𝗋𝗂𝖼
+                                                                        𝗀𝗋𝖾𝖾𝗍𝗂𝗇𝗀𝗌 𝗌𝗎𝖼𝗁 𝖺𝗌 &quot;𝖣𝖾𝖺𝗋
+                                                                        𝖯𝖺𝗒𝖯𝖺𝗅 𝗆𝖾𝗆𝖻𝖾𝗋&quot;. 𝖤𝗆𝖺𝗂𝗅𝗌
+                                                                        𝖿𝗋𝗈𝗆 𝖯𝖺𝗒𝖯𝖺𝗅 𝗐𝗂𝗅𝗅 𝖺𝗅𝗐𝖺𝗒𝗌
+                                                                        𝖺𝖽𝖽𝗋𝖾𝗌𝗌 𝗒𝗈𝗎 𝖻𝗒 𝗒𝗈𝗎𝗋 𝗀𝗂𝗏𝖾𝗇
+                                                                        𝗌𝗎𝗋𝗇𝖺𝗆𝖾 𝖺𝗇𝖽 𝗀𝗂𝗏𝖾𝗇 𝗇𝖺𝗆𝖾.<br><a
+                                                                            target="_blank" href="#"
+                                                                            title="More on phishing"
+                                                                            style="text-decoration: underline; color: #009cde;">𝖬𝗈𝗋𝖾
+                                                                            𝗈𝗇 𝗉𝗁𝗂𝗌𝗁𝗂𝗇𝗀</a>
+                                                                    </div>
+                                                                </td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" valign="middle"
+                                                                    style="padding:20px 0px 0px 0px;">
+
+                                                                    <div
+                                                                        style="margin: 0px; font-family:Math Sans, Tahoma, Arial, sans-serif; font-size:13px; mso-line-height-rule:exactly; line-height:150%; color:#6c7378;">
+
+                                                                        𝖯𝗅𝖾𝖺𝗌𝖾 𝖽𝗈 𝗇𝗈𝗍 𝗋𝖾𝗉𝗅𝗒 𝗍𝗈
+                                                                        𝗍𝗁𝗂𝗌 𝖾𝗆𝖺𝗂𝗅. 𝖴𝗇𝖿𝗈𝗋𝗍𝗎𝗇𝖺𝗍𝖾𝗅𝗒,
+                                                                        𝗐𝖾 𝖺𝗋𝖾 𝗎𝗇𝖺𝖻𝗅𝖾 𝗍𝗈 𝗋𝖾𝗌𝗉𝗈𝗇𝖽
+                                                                        𝗍𝗈 𝗂𝗇𝗊𝗎𝗂𝗋𝗂𝖾𝗌 𝗌𝖾𝗇𝗍 𝗍𝗈 𝗍𝗁𝗂𝗌
+                                                                        𝖺𝖽𝖽𝗋𝖾𝗌𝗌. 𝖥𝗈𝗋 𝗂𝗆𝗆𝖾𝖽𝗂𝖺𝗍𝖾
+                                                                        𝖺𝗇𝗌𝗐𝖾𝗋𝗌 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗌𝗍𝗂𝗈𝗇𝗌,
+                                                                        𝗌𝗂𝗆𝗉𝗅𝗒 𝗏𝗂𝗌𝗂𝗍 𝗈𝗎𝗋 𝖧𝖾𝗅𝗉
+                                                                        𝖢𝖾𝗇𝗍𝖾𝗋 𝖻𝗒 𝖼𝗅𝗂𝖼𝗄𝗂𝗇𝗀
+                                                                        &quot;𝖧𝖾𝗅𝗉 &amp; 𝖢𝗈𝗇𝗍𝖺𝖼𝗍&quot; 𝖺𝗍
+                                                                        𝗍𝗁𝖾 𝖻𝗈𝗍𝗍𝗈𝗆 𝗈𝖿 𝖺𝗇𝗒 𝖯𝖺𝗒𝖯𝖺𝗅
+                                                                        𝗉𝖺𝗀𝖾.<br><br>𝖢𝗈𝗇𝗌𝗎𝗆𝖾𝗋
+                                                                        𝖺𝖽𝗏𝗂𝗌𝗈𝗋𝗒 — 𝖯𝖺𝗒𝖯𝖺𝗅 𝖯𝗍𝖾. 𝖫𝗍𝖽.
+                                                                        𝗍𝗁𝖾 𝗁𝗈𝗅𝖽𝖾𝗋 𝗈𝖿 𝖯𝖺𝗒𝖯𝖺𝗅'𝗌
+                                                                        𝗌𝗍𝗈𝗋𝖾𝖽 𝗏𝖺𝗅𝗎𝖾 𝖿𝖺𝖼𝗂𝗅𝗂𝗍𝗒
+                                                                        𝖽𝗈𝖾𝗌 𝗇𝗈𝗍 𝗋𝖾𝗊𝗎𝗂𝗋𝖾 𝗍𝗁𝖾
+                                                                        𝖺𝗉𝗉𝗋𝗈𝗏𝖺𝗅 𝗈𝖿 𝗍𝗁𝖾 𝖬𝗈𝗇𝖾𝗍𝖺𝗋𝗒
+                                                                        𝖠𝗎𝗍𝗁𝗈𝗋𝗂𝗍𝗒 𝗈𝖿 𝖲𝗂𝗇𝗀𝖺𝗉𝗈𝗋𝖾.
+                                                                        𝖴𝗌𝖾𝗋𝗌 𝖺𝗋𝖾 𝖺𝖽𝗏𝗂𝗌𝖾𝖽 𝗍𝗈 𝗋𝖾𝖺𝖽
+                                                                        𝗍𝗁𝖾 <a href="#" title="terms and conditions"
+                                                                            target="_blank"
+                                                                            style="color: #009cde;text-decoration:underline;">𝗍𝖾𝗋𝗆𝗌
+                                                                            𝖺𝗇𝖽 𝖼𝗈𝗇𝖽𝗂𝗍𝗂𝗈𝗇𝗌</a>
+                                                                        𝖼𝖺𝗋𝖾𝖿𝗎𝗅𝗅𝗒.<br><br>𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 ©
+                                                                        𝟤𝟢𝟤𝟣 𝖯𝖺𝗒𝖯𝖺𝗅. 𝖠𝗅𝗅 𝗋𝗂𝗀𝗁𝗍𝗌
+                                                                        𝗋𝖾𝗌𝖾𝗋𝗏𝖾𝖽.
+
+                                                                    </div>
+
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" valign="middle"
+                                                                    style="padding:20px 0px 0px 0px;">
+
+                                                                    <div
+                                                                        style="margin: 0px; font-family:Math Sans, Tahoma, Arial, sans-serif; font-size:13px; mso-line-height-rule:exactly; line-height:150%; color:#6c7378;">
+                                                                        42578
+                                                                        118488</div>
+
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="mob-hide">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" width="640"
+                                        role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td style="height:1px; width: 1px;"><img
+                                                        src="https://pixel.app.returnpath.net/pixel.gif?r=11204aec4a074e87091ab872d206fcfbce6aac35"
+                                                        width="1" height="1"></td>
+                                            </tr>
+
+
+
+
+
+
+
+                                            <tr>
+                                                <td style="line-height:2px; height:2px; min-width: 640px;">
+                                                    <img src="https://images.ctfassets.net/7rifqg28wcbd/6Xa3RLs8deEywtgXmAo9JV/61b1ee3576f0473ea04f86166fc8f4b1/spacer.gif"
+                                                        height="2" width="640"
+                                                        style="max-height:2px; min-height:2px; display:block; width:640px; min-width:640px;">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+<a href="https://www.ups.com/us/en/help-center/legal-terms-conditions/my-choice.page" title="Service Terms"
+    class="fallback-font"
+    style="font-family: 'Roboto', Arial, Helvetica, sans-serif !important; font-size: 10px; line-height: 14px; color: #121212; text-decoration: underline; font-weight: normal;"
+    target="_blank">
+
+    <a href="https://wwwapps.ups.com/ppc/ppc.html/informationPage/communicationpreferences?loc=en_US" title="Opt Out"
+        class="fallback-font"
+        style="font-family: 'Roboto', Arial, Helvetica, sans-serif !important; font-size: 10px; line-height: 14px; color: #121212; text-decoration: underline; font-weight: normal;"
+        target="_blank">
+
+    </a>
+    </span>
+    <br />
+    <img
+        src="https://unitedparcelservice.sc.omtrdc.net/b/ss/upsprod/1?AQB=1&v14=%2F&v49=email_rpt.ups.com&pgf_Site=Country&c6=US&c5=en&v56032022&ch=E-mail&c33=Tracking&c1=ct1_eml_tra_eml_sb_1day&v5743905386548&pe=lnk_o&pev2=E-mail+Template&AQE=1" />
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </body>
+
+    </html>
