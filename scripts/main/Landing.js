@@ -51,13 +51,6 @@ class Landing {
     }
 
     init() {
-        /*
-
-        INIT AKAN KITA PANGGIL SEPANJANG WAKTU,
-        SEMOGA TIDAK BOSAN YA.. HAHAHA
-        
-        */
-
         // BERSIHKAN TERLEBIH DAHULU SEMUANYA
         this.end();
         // PERINTAHKAN UNTUK BIKIN DIV BARU

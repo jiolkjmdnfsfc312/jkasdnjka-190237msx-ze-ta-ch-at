@@ -190,12 +190,7 @@ class Dashboard {
     }
 
     ukuranLayarChat() {
-        /*
-            NIATNYA MAU BIKIN RESPONSIVE BANGET,
-            TAPI BISANYA CUMA RESPONSIVE AJA.
-            KALO MAU BIKININ YANG RESPONSIVE BANGET.
-            KALO MAU DISUBMIT JUGA AKAN SAYA TERIMA
-        */
+
         const width = window.innerWidth;
         if(width >= 950) { // JIKA LEBAR LAYAR DI ATAS 949px
             if(!this.header || this.header == null) { // DAN JIKA GAADA HEADERNYA
